@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.intro {
+    position: relative;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 6%;
+    padding-right: 10%;
+    background: rgba(132, 0, 255, 0.089);
+    border-radius: 15px;
+    margin: 2% 2%;
+    box-shadow: 4px 5px 8px;
+
+}
+
+#main-content {
+    background: rgba(0, 0, 31, 0.799);
+    border-radius: 25px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0 2%;
+    z-index: -1;
+}
+
+.actifs {
+    background: rgba(0, 0, 0, 0.384);
+    border-radius: 20px;
+    position: relative;
+    padding: 6% 10%;
+    margin: 0 4%;
+}
+
+.actifs section{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 4%;
+    padding: 2% 7%;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.actions {
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.obligations {
+    padding-bottom: 2%;
+}
+
+.mp {
+    padding-bottom: 2%;
+}
+
+.pm {
+    padding-bottom: 2%;
+}
+
+.devises {
+    padding-bottom: 2%;
+}
+
+li {
+    display: inline;
+    padding: 0 4%;
+}
+
+.menu {
+    margin-bottom: 3%;
+}
+
+.menu nav {
+    text-align: center;
+    padding: 1%;
+    margin: 1% 4%;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 4px 4px 6px;
+    border-radius: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.level {
+    position: relative;
+    text-align: center;
+    padding: 2.8% 0;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    left: 15%;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.164);
+}
+    
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.level button {
+    border-style: none;
+    background: white;
+    border-radius: 15px;
+    padding: 2% 5%;
+    color: black;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+.level button:hover {
+    transform: scale(1.1);
+    background: black;
+    color: white;
+}
